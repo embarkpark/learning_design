@@ -1,4 +1,4 @@
-# Overview
+What type of programming do we want to cover in this training?
 
 ## _Professional_ programming
 
