@@ -9,9 +9,9 @@ However, programmers also spend a lot of their time in analyzing, designing, and
 
 In this sense, programming is less about "writing code", and more about problem solving. Strong programmers employ a systematic & structured problem solving approach.
 
-[Problem decomposition](../../glossary/problem_decomposition.md) is a powerful technique for systematic problem solving. Decomposing a large problem into smaller problems is how we effectively design programs. Much like a well-designed mechanical device, well-structured programs are built up from small, clearly-defined building blocks.
+[Problem decomposition](../glossary/problem_decomposition.md) is a powerful technique for systematic problem solving. Decomposing a large problem into smaller problems is how we effectively design programs. Much like a well-designed mechanical device, well-structured programs are built up from small, clearly-defined building blocks.
 
-In programming, **functions are these building blocks**. Thus, functions are fundamental to program design.
+In programming, functions are these building blocks. Thus, functions are fundamental to program design.
 
 ### In summary
 1. programming is not just coding, it's more fundamentally about problem solving
