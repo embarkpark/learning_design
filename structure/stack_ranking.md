@@ -174,12 +174,28 @@ How hashtables are implemented.
 Insert time.
 Search time.
 
+Real-world uses: natural use cases for a dictionary (anything where you index by an id...) E.g., specifically, looking up the session data that goes along with a session id. You know, when you visit a website, the browser automatically sends the cookie data associated with the current domain, insie that data is almost always a session id, that session id is received on the server side, parsed, and used to look up the session data that corresponds to this client (in this case, the client is a browser), and in that session data, for example, will be a flag that says whether or not this session is an authenticated session (i.e., is this user logged in).  The lookup of a data structure via an id like this (the session id) is an example of key-value lookup. It's important for this lookup to be really fast, because a single page load often triggers several requests to the same server in the course of assembling this view (this page). Each request to the same domain is going to have the same cookie data attached to it, and this whole lookup process described above will happen over and over again, once for each request. Multiply this by hundreds of simultaneous clients, and you have thousands of RPS (requests per second, aka QPS, or queries per second). Thus, if it's computationally expensive to do this session lookup per request, then the whole server will bog down.
+
+Another real-world use: caching. E.g., looking something up from a relational database like mysql or postgres etc is computationally expensive. A database engine is an extremely complex beast. For example, just parsing the SQL statement that your program sends requires an interpreter to run, which takes multiple passes over the SQL string in order to understand what you're even asking for.  And so on, there are lots of subsystems that must run in order to satisfy even a relatively simple request, let alone a more complex one that joins several tables together and filters them and whatnot.  So, caching the result of all this computation by the database server software in memory somewhere (e.g., in a hashtable) -- and then looking up the data by some key -- is going to be orders of magnitude faster than re-running the query over and over.
+
 ## Modeling problems as data: sequentially
 
+Insert time and search time for the following.
+Real world example for the following.
+
 Stacks.
+LIFO
+
+
 Queues.
+FIFO
+A queue data structure very simply models queues in real life. Think conveyor belts in factories.
+
+Production example:
+Task queues are fundamental to modeling workflows. So for example, let's say you are writing an app to be used out in the field by workers on construction sites. The idea is to ingest blueprints and display them on tablets so workers can tap on the blueprints to mark exactly where fixes need to be made. The ingestion process is going to be multi-phased -- first, the basic upload of the blueprint PDF. Next, using machine learning / OCR (optical character recognition) to determine the orientation of the uploaded PDF and rotate it if necessary.  Next, on each sheet of the blueprints, again apply OCR to look for references to other sheets, so these can be turned into dynamic links. Etc. So, each phase of this ingestion process can take varying amounts of time, and the type of computing resources that's required varies. For example, the upload servers probably need extreme bandwidth and larger storage than the OCR servers does. Conversely, the OCR servers are very CPU-intensive, and might even benefit from extra GPUs, depending on how the machine learning is implemented. The fact that these workloads lend themselves to different machine types suggests that they shouldn't all run on one machine. So what we can do is, have a publish/subscribe (pub/sub) pattern where the first set of servers subscribes to tasks, grabs those tasks, processes them sequentially, and publishes the next set of tasks.  Those tasks are then picked up by the next set of servers, which are subscribed to those task types, and so on.  This is a clear example of a chain of work queues, or task queues, implemented in the central "bus" that all the servers are publishing to and subscribed to. Yes, this is the same bus idea as CPUs using a bus to talk to main memory. This bus definitely contains multiple instances of the queue data type in order to maintain these task queues. 
+
 Linked lists.
-Insert time and search time.
+
 Real-world problems involving the above.
 
 ## Modeling problems as data: hierarchically
@@ -204,8 +220,32 @@ https://bennettgarner.medium.com/what-the-graph-a-beginners-simple-intro-to-grap
 
 ## Clean coding
 
+Total cost of code ownership. (cost of owning a mess!)
+The boy scout rule.
 Naming.
-Linters.
+-- Naming is harder and more important than you think. 
+Functions.
+-- small. single-purpose. composable. etc.
+Comments, good and bad.
+E.g,. bad comments: redundant, misleading / out of date, boilerplate / noise. Don't use a comment when the code itself could be self-describing. Don't comment out code, just delete it, trust in your source control.
+Formatting is also more important than you think.
+-- why? because it's hard to read production code, and as we do so, we are constantly looking for meaning -- meaningless variations in formatting/syntax create more noise for our eyes and false leads, making the code harder to read.
+^^^ e.g., use linters, agree on a code convention, doesn't matter what it is really, just the team should agree. Follow what's there, don't waste time on huge reformatting initiatives, etc.
+Error handling. 
+Boundaries. 
+Unit tests.
+Systems -- dependency injection, cross-cutting concerns.
+Emergent design.
+Successive refinement.
+Code smells and refactoring.
+
+```
+Possible activities:
+
+porkbulgogi sez: Practical hands-on stuff... examples of good and bad, side by side. MCQ, which is the bad one? And why? 
+
+Updated, more-accessible examples (e.g., in a wider variety of languages, including scripting languages, a little less emphasis on Java-style approaches).
+```
 
 ## Unit testing
 
@@ -237,10 +277,20 @@ approach: if you didn't fix it, it ain't fixed.
 
 https://www.amazon.com/Debugging-Indispensable-Software-Hardware-Problems/dp/0814471684
 
-See: 
 
 ## State and state management
- 
+
+What is "state"? Why does it matter?
+What does it mean to "manage" state?
+We are constantly fighting to manage infinite complexity of our creations.
+One source of that complexity is change.
+1) Something that never changes is completely predictable.
+2) Something that changes a lot, but in the same ways, is also completely predictable.
+3) Something that changes a lot, but in various ways, is harder to predict. 
+4) Something that changes a lot, but in various RANDOM ways, is very hard to predict.
+So... in your source code... marking the variables whose values don't ever need to change... moves your system from (4) back towards (1). Specifically, for example, languages that support a `final` keyword allow you to mark variables as frozen, once they are initialized with some value. This means you never have to worry about those values changing again, on you. This is reassuring. This is less for you to have to think about, as you are analyzing the system. 
+
+
 # Phase 2: Hands-on skills for client and server
 
 ## Client language crash course 
