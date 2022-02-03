@@ -203,9 +203,13 @@ Real-world problems involving the above.
 General tree.
 Binary tree.
 Binary search tree.
-Quadtree.
+Quadtree. -- use example of Uber here
+
 Insert time and search time.
 Real-world problems involving the above.
+
+Best places to use trees?
+
 
 ## Modeling problems as data: non-linear, networked
 
@@ -215,6 +219,10 @@ Cyclic vs acyclic.
 Weighting.
 Insert time and search time.
 Real-world problems involving the above.
+
+Need technical explainer of non linear data structures since most CS courses don't cover them or go in depth enough
+When to use non-linear vs hierarchical?
+How computational expensive is non-linear and how do we use them efficiently?
 
 https://bennettgarner.medium.com/what-the-graph-a-beginners-simple-intro-to-graphs-in-computer-science-3808d542a0e5
 
@@ -249,7 +257,7 @@ Updated, more-accessible examples (e.g., in a wider variety of languages, includ
 
 ## Unit testing
 
-
+Good Practices?
 
 ## Debugging
 
