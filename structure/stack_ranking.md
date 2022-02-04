@@ -406,6 +406,8 @@ Composition over inheritance. Compositional approach to building component trees
 
 ## Refactoring
 
+TODO: crib from https://martinfowler.com/books/refactoring.html
+
 ## Databases: NoSQL
 
 ## Cloud computing
