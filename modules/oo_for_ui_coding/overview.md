@@ -1,0 +1,1 @@
+Composition over inheritance. Compositional approach to building component trees or scene graphs. Intermediate O-O things like mixins.

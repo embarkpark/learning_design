@@ -11,6 +11,7 @@
 * [Modeling problems as data: custom types, structs and classes](./modules/modeling_problems_as_data_custom_types_structs_and_classes/overview.md)
 * [Modeling problems as data: key-value](./modules/modeling_problems_as_data_key-value/overview.md)
 * [Modeling problems as data: sequential containers](./modules/modeling_problems_as_data_sequential_containers/overview.md)
+* [Modeling problems as data: hierarchical](./modules/modeling_problems_as_data_hierarchical/overview.md)
 * [Modeling problems as data: node-based containers](./modules/modeling_problems_as_data_node-based_containers/overview.md)
 * [Clean coding](./modules/clean_coding/overview.md)
 * [Unit testing](./modules/unit_testing/overview.md)
@@ -21,6 +22,7 @@
 
 * [Client language crash course](./modules/crash_course_client_language/overview.md)
 * [Server language crash course](./modules/crash_course_server_language/overview.md)
+* [Common](./modules/common/overview.md)
 * [Intermediate JavaScript](./modules/intermediate_javascript/overview.md)
 * [Intermediate Python](./modules/intermediate_python/overview.md)
 * [Intermediate Go](./modules/intermediate_go/overview.md)
@@ -32,15 +34,15 @@
 * [Client framework](./modules/client_framework/overview.md)
 * [Databases: relational](./modules/databases_relational/overview.md)
 * [Integration testing](./modules/integration_testing/overview.md)
+
+
+# Professional, web-scale team development
 * [Functional approach](./modules/functional_approach/overview.md)
 * [Refactoring](./modules/refactoring/overview.md)
 * [Databases: NoSQL](./modules/databases_nosql/overview.md)
 * [Cloud computing](./modules/cloud_computing/overview.md)
 * [Deployment](./modules/distributed_systems_design/overview.md)
 * [Cloud deployment](./modules/cloud_deployment/overview.md)
-
-# Playing a tech lead on TV
-
 * [Distributed systems design](./modules/distributed_systems_design/overview.md)
 * [Architectural patterns](./modules/architectural_patterns/overview.md)
 * [Coding for reliability & observability](./modules/coding_for_reliability_and_observability/overview.md)
