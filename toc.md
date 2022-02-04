@@ -1,10 +1,11 @@
 # Fundamentals
 
 * [Setting the stage](./modules/setting_the_stage/overview.md)
-* [Crash-course/refresher in an initial teaching-language](./modules/teaching_language_crash_course/overview.md)
+* [Crash-course/refresher in our initial teaching-languages](./modules/teaching_language_crash_course/overview.md)
 * [Programming as structured problem-solving](./modules/programming_as_problem_solving/overview.md)
 * [Basic math & logic for computing](./modules/math_and_logic_for_computing/overview.md)
-* [Mental model of computing](./modules/mental_model_of_computing/overview.md)
+* [Mental model of computing: the computer itself](./modules/mental_model_of_computing_the_computer_itself/overview.md)
+* [Mental model of computing: the OS](./modules/mental_model_of_computing_the_operating_system/overview.md)
 * [Functions](./modules/functions/overview.md)
 * [Modeling problems as data: primitive types and arrays](./modules/modeling_problems_as_data_primitive_types_and_arrays/overview.md)
 * [Modeling problems as data: custom types, structs and classes](./modules/modeling_problems_as_data_custom_types_structs_and_classes/overview.md)
@@ -20,9 +21,9 @@
 
 * [Client language crash course](./modules/crash_course_client_language/overview.md)
 * [Server language crash course](./modules/crash_course_server_language/overview.md)
-* [JavaScript (Node)](./modules/intermediate_javascript/overview.md)
-* [Python-specific](./modules/intermediate_python/overview.md)
-* [Go-specific](./modules/intermediate_go/overview.md)
+* [Intermediate JavaScript](./modules/intermediate_javascript/overview.md)
+* [Intermediate Python](./modules/intermediate_python/overview.md)
+* [Intermediate Go](./modules/intermediate_go/overview.md)
 * [SQL crash course](./modules/crash_course_sql/overview.md)
 * [Networking](./modules/networking/overview.md)
 * [Async](./modules/async/overview.md)
