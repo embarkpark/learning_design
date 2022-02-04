@@ -1,0 +1,49 @@
+# Fundamentals
+
+* [Setting the stage](./modules/setting_the_stage/overview.md)
+* [Crash-course/refresher in an initial teaching-language](./modules/databases_nosql/overview.md)
+* [Programming as structured problem-solving](./modules/programming_as_problem-solving/overview.md)
+* [Basic math & logic for computing](./modules/math_and_logic_for_computing/overview.md)
+* [Mental model of computing](./modules/mental_model_of_computing/overview.md)
+* [Functions](./modules/go-specific/overview.md)
+* [Modeling problems as data: primitive types and arrays](./modules/modeling_problems_as_data_primitive_types_and_arrays/overview.md)
+* [Modeling problems as data: custom types, structs and classes](./modules/modeling_problems_as_data_custom_types,_structs_and_classes/overview.md)
+* [Modeling problems as data: key-value](./modules/modeling_problems_as_data_key-value/overview.md)
+* [Modeling problems as data: sequential containers](./modules/modeling_problems_as_data_sequential_containers/overview.md)
+* [Modeling problems as data: node-based containers](./modules/modeling_problems_as_data_node-based_containers/overview.md)
+* [Clean coding](./modules/clean_coding/overview.md)
+* [Unit testing](./modules/unit_testing/overview.md)
+* [Debugging](./modules/deployment/overview.md)
+* [State and state management](./modules/state_and_state_management/overview.md)
+
+# Practical hands-on
+
+* [Client language crash course](./modules/client_language_crash_course_/overview.md)
+* [Server language crash course](./modules/server_language_crash_course/overview.md)
+* [JavaScript (Node)](./modules/language-crash-course/overview.md)
+* [Python-specific](./modules/python-specific/overview.md)
+* [Go-specific](./modules/integration_testing/overview.md)
+* [SQL crash course](./modules/sql_crash_course/overview.md)
+* [Networking](./modules/networking/overview.md)
+* [Async](./modules/async/overview.md)
+* [OO for UI coding](./modules/oo_for_ui_coding/overview.md)
+* [Client platform](./modules/client_platform/overview.md)
+* [Client framework](./modules/client_framework/overview.md)
+* [Databases: relational](./modules/debugging/overview.md)
+* [Integration testing](./modules/javascript/overview.md)
+* [Functional approach](./modules/functions/overview.md)
+* [Refactoring](./modules/refactoring/overview.md)
+* [Databases: NoSQL](./modules/databases_relational/overview.md)
+* [Cloud computing](./modules/cloud_computing/overview.md)
+* [Deployment](./modules/distributed_systems_design/overview.md)
+* [Cloud deployment](./modules/cloud_deployment/overview.md)
+
+# Playing a tech lead on TV
+
+* [Distributed systems design](./modules/estimation_and_iterative_development/overview.md)
+* [Architectural patterns](./modules/architectural_patterns/overview.md)
+* [Coding for reliability & observability](./modules/coding_for_reliability_and_observability/overview.md)
+* [Product design & UX](./modules/product_design_and_ux/overview.md)
+* [Estimation and iterative development](./modules/functional_approach/overview.md)
+
+

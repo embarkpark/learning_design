@@ -1,19 +1,6 @@
 # Phase 1: Conceptual basics
 
 ## Setting the stage
-
-The purposes of this learning.
-What hiring managers seek, and why.
-Coding vs. programming.
-Professionalism.
-engineering: -ilities.
-Soft skills matter too.
-Meta-cognition, what we know about learning. What it means to you.
-Ch 1 & 8 from Make It Stick.
-How to succeed.
-Habits -- system over goals.
-Mimetic desires -- choose your role models.
-
 ## Crash-course/refresher in an initial teaching-language 
 
 Initial languages supported: Python, JavaScript (within Node).
