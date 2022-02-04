@@ -45,5 +45,3 @@
 * [Coding for reliability & observability](./modules/coding_for_reliability_and_observability/overview.md)
 * [Product design & UX](./modules/product_design_and_ux/overview.md)
 * [Estimation and iterative development](./modules/functional_approach/overview.md)
-
-
