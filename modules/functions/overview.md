@@ -1,5 +1,23 @@
 # [module] Functions
 
+Input->processing->output.
+Functions as building block of design.
+Function signatures as contracts.
+Functions in math.
+Side effects, and avoiding them.
+
+The functional approach to program design is both an alternative and a complement to object-oriented design.
+
+The functional approach, very broadly speaking, attempts to increase program clarity and maintainability by harnessing functions to reduce surprising side effects from code.
+
+Functional approach to program design
+Functions as first-class citizens, function pointers.
+Higher-order functions.
+Composing functions.
+Callback functions.
+Functional-style List methods. Map, filter, reduce.
+Lambda expressions.
+
 ## Big Ideas for this module
 _What's a Big Idea? It's a concept that you'll probably remember and use years from now, because it is harder to perform well as a professional programmer without this idea._
 

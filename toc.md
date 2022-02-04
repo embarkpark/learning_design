@@ -1,53 +1,50 @@
-#1: Absolute conceptual basics
+# Fundamentals
 
-* Functions I
-* Modeling problems as data I
-* Modeling problems w/ classes I
-* Visualizing program state I
-* Modeling problems as data II
-* Modeling problems as data III
-* Modeling problems w/ classes II
-* Testing I
-* State management I
+* [Setting the stage](./modules/setting_the_stage/overview.md)
+* [Crash-course/refresher in our initial teaching-languages](./modules/teaching_language_crash_course/overview.md)
+* [Programming as structured problem-solving](./modules/programming_as_problem_solving/overview.md)
+* [Basic math & logic for computing](./modules/math_and_logic_for_computing/overview.md)
+* [Mental model of computing: the computer itself](./modules/mental_model_of_computing_the_computer_itself/overview.md)
+* [Mental model of computing: the OS](./modules/mental_model_of_computing_the_operating_system/overview.md)
+* [Functions](./modules/functions/overview.md)
+* [Modeling problems as data: primitive types and arrays](./modules/modeling_problems_as_data_primitive_types_and_arrays/overview.md)
+* [Modeling problems as data: custom types, structs and classes](./modules/modeling_problems_as_data_custom_types_structs_and_classes/overview.md)
+* [Modeling problems as data: key-value](./modules/modeling_problems_as_data_key-value/overview.md)
+* [Modeling problems as data: sequential containers](./modules/modeling_problems_as_data_sequential_containers/overview.md)
+* [Modeling problems as data: hierarchical](./modules/modeling_problems_as_data_hierarchical/overview.md)
+* [Modeling problems as data: node-based containers](./modules/modeling_problems_as_data_node-based_containers/overview.md)
+* [Clean coding](./modules/clean_coding/overview.md)
+* [Unit testing](./modules/unit_testing/overview.md)
+* [Debugging](./modules/debugging/overview.md)
+* [State and state management](./modules/state_and_state_management/overview.md)
 
-#2: Hands-on skills, using our chosen tools
-* Client language Dojo I
-* Networking I
-* Networking II
-* Async I
-* Server I
-* Async II
-* Client I
-* Server II
-* Client platform I
-* UI coding foundations I
-* UI coding foundations II
-* Client language Dojo II
-* Client framework Dojo I
-* Client framework Dojo II
+# Practical hands-on
 
-#3: Doing things well, at a professional level of understanding and quality
+* [Client language crash course](./modules/crash_course_client_language/overview.md)
+* [Server language crash course](./modules/crash_course_server_language/overview.md)
+* [Common](./modules/common/overview.md)
+* [Intermediate JavaScript](./modules/intermediate_javascript/overview.md)
+* [Intermediate Python](./modules/intermediate_python/overview.md)
+* [Intermediate Go](./modules/intermediate_go/overview.md)
+* [SQL crash course](./modules/crash_course_sql/overview.md)
+* [Networking](./modules/networking/overview.md)
+* [Async](./modules/async/overview.md)
+* [OO for UI coding](./modules/oo_for_ui_coding/overview.md)
+* [Client platform](./modules/client_platform/overview.md)
+* [Client framework](./modules/client_framework/overview.md)
+* [Databases: relational](./modules/databases_relational/overview.md)
+* [Integration testing](./modules/integration_testing/overview.md)
 
-* Mental model of computing
-* Problem-solving strategies I
-* Clean Coding I
--- Functions in math. Pure functions.
-* Clean coding II
-* Debugging I
-* Algorithmic thinking I
-* Algorithmic thinking II
-* Visualizing program state II
-* Visualizing program state III
-* State management II
-* Systems thinking I
-* Modularity I
-* Modularity II
-* Refactoring I
-* Coding for reliability & observability I
-* Modeling problems as data III
-* Async III
 
-possible 4th bucket: "product engineer" mindset
-* Product design
-* Product lifecycle
-* many other possibilities
+# Professional, web-scale team development
+* [Functional approach](./modules/functional_approach/overview.md)
+* [Refactoring](./modules/refactoring/overview.md)
+* [Databases: NoSQL](./modules/databases_nosql/overview.md)
+* [Cloud computing](./modules/cloud_computing/overview.md)
+* [Deployment](./modules/distributed_systems_design/overview.md)
+* [Cloud deployment](./modules/cloud_deployment/overview.md)
+* [Distributed systems design](./modules/distributed_systems_design/overview.md)
+* [Architectural patterns](./modules/architectural_patterns/overview.md)
+* [Coding for reliability & observability](./modules/coding_for_reliability_and_observability/overview.md)
+* [Product design & UX](./modules/product_design_and_ux/overview.md)
+* [Estimation and iterative development](./modules/estimation_and_iterative_development/overview.md)
