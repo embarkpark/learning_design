@@ -19,7 +19,7 @@ Functional-style List methods. Map, filter, reduce.
 Lambda expressions.
 
 ## Big Ideas for this module
-_What's a Big Idea? It's a concept that you'll probably remember and use years from now, because it is harder to perform well as a professional programmer without this idea._
+_What's a Big Idea? It's a concept that you'll probably remember and use years from now, because you get better results as a professional programmer by applying it._
 
 Programming seems like it is all about computers and programming languages. You might imagine that you are coding all day.
 
