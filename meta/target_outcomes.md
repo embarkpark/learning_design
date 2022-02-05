@@ -8,7 +8,7 @@ This training aims for the following outcomes:
 * Ability to work well with others in a modern team development environment.
 * Realism. An understanding of how the new skills and concepts apply to realistic tasks. Ready transference to real tasks later in their real teams.
 
-### What does "seasoned junior" meamn?
+### What does "seasoned junior" mean?
 
 * large toolkit for productivity (literally, can use many tools, and easily learn more)
 * design-first, intentional, systematic approach to constructing software (not "dive in and make a mess")
