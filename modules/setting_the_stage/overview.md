@@ -32,7 +32,8 @@ Any production software project is beset with delivery risks. Good engineers ope
 
 To take one example, here's an approach to development that helps to mitigate risk:
 
-* Debugging is extremely time-consuming. 
+* Debugging is extremely time-consuming.
+* Unexpected debugging can derail the delivery schedule.
 * We want to minimize the amount of time spent debugging.
 * The best way to do this is to avoid the introduction of bugs in the first place.
 * There are many anti-patterns that introduce bugs.
