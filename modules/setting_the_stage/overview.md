@@ -1,6 +1,6 @@
 # Setting the stage
 
-_The purposes of this learning. What hiring managers seek, and why. Coding vs. programming. Professionalism. engineering: -ilities. Soft skills matter too. Meta-cognition, what we know about learning. What it means to you. How to succeed. Habits -- system over goals. Mimetic desires -- choose your role models._
+_The purposes of this learning. Professionalism.What hiring managers seek, and why. engineering: -ilities. Soft skills matter too. Meta-cognition, what we know about learning. What it means to you. How to succeed. Habits -- system over goals. Mimetic desires -- choose your role models._
 
 ## The purposes of this learning
 
@@ -15,6 +15,20 @@ By approaching your tasks in that way, you will have more success in job-seeking
 * You have have completed a course like Harvard CS50, a coding bootcamp, or even an entire degree in a technical discipline. 
 * You are now wondering how to get a good entry-level position in the industry, and do well in it.
 * OR you do have an entry-level job, and are wondering how to do well in it / get a better one.
+
+## Professionalism
+
+A student is primarily concerned with getting good scores, getting through a course. These concerns in a sense are self-centered. Your scores, your completion.
+
+A professional, by definition, is paid to produce results for clients. As such, a reliable professional demonstrates and acts upon outward-facing concern for the needs of their clients.
+
+Even if you are not yet being paid by a specific client, nonetheless, you are beyond mere student status.  You are a professional.
+
+Although this training is a kind of a course of study, it has a very practical and reality-based orientation. We want to urge you to avoid falling into the trap of thinking like a student.
+
+If you are job-seeking, or will be again at some point, then in a sense, your "customer" is the members of the hiring team.
+
+How can you demonstrate concern for the needs of these clients?
 
 ## What hiring teams seek
 
