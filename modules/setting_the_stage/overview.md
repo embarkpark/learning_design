@@ -18,7 +18,7 @@ By approaching your tasks in that way, you will have more success in job-seeking
 
 ## Professionalism
 
-A student is primarily concerned with getting good scores, getting through a course. These concerns in a sense are self-centered. Your scores, your completion.
+A student is primarily concerned with getting good scores, getting through a course. These concerns in a sense are self-centered. _Your_ scores, _your_ graduation, _your_ interests, _your_ offers, _your_ compensation, and so on. Nothing wrong with being focused on your own needs, of course, but that's inherently just a personal stance, not a professional one.
 
 A professional, by definition, is paid to produce results for clients. As such, a reliable professional demonstrates and acts upon outward-facing concern for the needs of their clients.
 
