@@ -1,6 +1,6 @@
 # Setting the stage
 
-_The purposes of this learning. Professionalism.What hiring managers seek, and why. engineering: -ilities. Soft skills matter too. Meta-cognition, what we know about learning. What it means to you. How to succeed. Habits -- system over goals. Mimetic desires -- choose your role models._
+_The purposes of this learning. Professionalism.What hiring managers seek, and why. engineering: -ilities. Soft skills matter too. Applying backward design to your own learning program._
 
 ## The purposes of this learning
 
@@ -82,7 +82,7 @@ Imagine working with engineers who care about, think in terms of, and act to rea
 
 All other things held equal, wouldn't that be a team you'd like to work on?
 
-Be that engineer.
+Aim to be that engineer. (This training will help.)
 
 ## Soft skills matter too. 
 
@@ -99,6 +99,11 @@ Good teams recognize that everyone makes mistakes, that there are usually multip
 This points to the importance of soft skills even in a highly-technical construction environment. We use our soft skills to maintain harmonious workflows while building.
 
 Hiring teams will be looking for evidence that you are such an engineer.
+
+## Designing your own learning
+
+Meta-cognition, what we know about learning. What it means to you. How to succeed. Habits -- system over goals. Mimetic desires -- choose your role models._
+
 
 ## Suggested readings
 
