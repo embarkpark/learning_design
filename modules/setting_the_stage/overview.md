@@ -26,7 +26,7 @@ So, how to influence the decisions and actions of other people?
 
 First it makes sense to understand their point of view. When you understand their "felt needs", you can make a logical plan to address those needs and thereby influence them.
 
-If you were an engineering manager, what would your felt needs be? Many entry-level people assume that the answer to this question involves the names of technologies, like "knows Python". And yes, a programmer needs to be able to use various languages and tools in order to get work done. However, it's important not to overlook the concept of risk management. 
+If you were an engineering manager, what would your felt needs be, as they pertain to hiring? Many entry-level people assume that the answer to this question involves the names of technologies, like "knows Python". And yes, a programmer needs to be able to use various languages and tools in order to get work done. However, it's important not to overlook the concept of risk management. 
 
 Any production software project is beset with delivery risks. Good engineers operate in a manner that consciously manages those risks.
 
