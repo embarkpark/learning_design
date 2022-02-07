@@ -84,6 +84,22 @@ All other things held equal, wouldn't that be a team you'd like to work on?
 
 Be that engineer.
 
+## Soft skills matter too. 
+
+A high-functioning engineering team is composed of highly autonomous, capable, individually-productive members.
+
+Such members understand that being "stuck" is an honorable and normal state, and work to get themselves unstuck without imposing unduly on their teammates.
+
+Such members are able to build substantial subsystems and features entirely by themselves, without needing to call in implementation help from others.
+
+However, while they are _able_ to operate in an "army of one" fashion -- they generally don't _want_ to do so. Rather, they want to operate collaboratively with their teammates, reviewing specs, reviewing technical designs, reviewing code, discussing and deciding together. 
+
+Good teams recognize that everyone makes mistakes, that there are usually multiple ways to accomplish things, that no one has a monopoly on good ideas, and in general we can do more if we build together in harmony.
+
+This points to the importance of soft skills even in a highly-technical construction environment. We use our soft skills to maintain harmonious workflows while building.
+
+Hiring teams will be looking for evidence that you are such an engineer.
+
 ## Suggested readings
 
 * [Make It Stick](https://www.amazon.com/Make-Stick-Science-Successful-Learning/dp/0674729013)
