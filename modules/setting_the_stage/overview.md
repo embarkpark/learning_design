@@ -64,6 +64,25 @@ Can you feel it yourself, as you scan the above bullet points? A sense of reassu
 
 To the extent that _you_ are that engineer, you will pattern-match more and more to what the team needs. This makes it easier and easier to get offers to work with high-functioning teams, the kind of teams that you want to be working with.
 
+## engineering: -ilities
+
+To expand on the topic of risk management, we can consider some broad best-practices that have been established over the years by generations of engineers.
+
+These are some desirable traits of a software system that collectively are sometimes called "-ilities", due to the common suffix:
+
+* usability
+* maintainability
+* reliability
+* extensibility
+* scalability
+
+There are [many more besides this](https://en.wikipedia.org/wiki/List_of_system_quality_attributes#Quality_attributes) but the ones above capture a lot of the gist.
+
+Imagine working with engineers who care about, think in terms of, and act to realize the above traits of the systems they build.
+
+All other things held equal, wouldn't that be a team you'd like to work on?
+
+Be that engineer.
 
 ## Suggested readings
 
