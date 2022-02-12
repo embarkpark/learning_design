@@ -68,9 +68,9 @@ As programmers, we can focus on just the handler function, and ignore the rest o
 
 The hard problem has been _decomposed_ into many smaller problems, and we can focus on just one of those problems at a time.
 
-## Module activities
+## Formative activities
 
-Let's practice writing functions, focusing on problem decomposition using them.
+In these activities, let's look at functions as a building block for problem decomposition.
 
 Activity #|Activity title
 ---|---
@@ -83,3 +83,4 @@ Activity #|Activity title
 
 ## Capstone task
 
+* [Cleanly-decomposed implementation of an English spec](./activities/capstone/README.md)
