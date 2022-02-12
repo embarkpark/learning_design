@@ -1,22 +1,20 @@
 # [module] Functions
 
-Input->processing->output.
-Functions as building block of design.
-Function signatures as contracts.
-Functions in math.
-Side effects, and avoiding them.
+### Some concepts we will cover
 
-The functional approach to program design is both an alternative and a complement to object-oriented design.
+_Input->processing->output._
+_Functions as building block of design._
+_Function signatures as contracts._
+_Functions in math._
+_Side effects, and avoiding them._
 
-The functional approach, very broadly speaking, attempts to increase program clarity and maintainability by harnessing functions to reduce surprising side effects from code.
+### Overview
 
-Functional approach to program design
-Functions as first-class citizens, function pointers.
-Higher-order functions.
-Composing functions.
-Callback functions.
-Functional-style List methods. Map, filter, reduce.
-Lambda expressions.
+You already know how to write functions.
+
+At a basic level, functions exist to organize code into reusable chunks. As such, functions increase program clarity and maintainability.
+
+In addition to the reusability aspect, functions serve as a basic building block of overall program design.
 
 ## Big Ideas for this module
 _What's a Big Idea? It's a concept that you'll probably remember and use years from now, because you get better results as a professional programmer by applying it._
@@ -46,7 +44,7 @@ Let's review the sequence of what happens.
 
 When first launched, every application will start up with a call to a "main" or "entrypoint" function. This function is called first, typically by the operating system.
 
-After launching, the entrypoint function will call other functions until the application is initialized (ready for use). 
+After launching, the entrypoint function will call other functions until the application is initialized (ready for use).
 
 At this point, applications usually wait for an external event to occur. These events might be user input, a message from the network, etc
 
@@ -70,35 +68,18 @@ As programmers, we can focus on just the handler function, and ignore the rest o
 
 The hard problem has been _decomposed_ into many smaller problems, and we can focus on just one of those problems at a time.
 
-## When will you use these Big Ideas? 
-
-Every time you are handed a plain-English specification of what a system or new feature should do, you face a problem decomposition challenge. You can use the technique described above to convert the fuzzy plain English problem into a set of more-precisely-described sub-problems.
-
-For example, if your team is asked to make a personal payments app, then one of the first things you'll do is decompose the large problem of "allow individuals to pay each other small amounts on their phone" into smaller problems, such as:
-
-1. finding the person you want to pay
-1. checking that this person is really who you want to pay
-1. setting up the payment
-1. validating the payment details
-1. executing the payment
-1. receiving payment confirmation
-
-You can imagine then breaking down any of these smaller problems further into even smaller problems. Eventually the problems will be small enough that they can be converted almost mechanically into functions. E.g., "validateAccountBalance()".
-
-This is the problem-solving approach that seasoned programmers employ, and you will too.
-
 ## Module activities
 
 Let's practice writing functions, focusing on problem decomposition using them.
 
 Activity #|Activity title
 ---|---
-1|computation functions
-2|validation functions
-3|display formatting functions
-4|sorting functions
-5|search functions
-6|data transformation functions
+1|[Breaking down an English spec](./activities/break_down_english_spec/README.md)
+2|[Refactoring a big function](./activities/refactoring_a_big_function/README.md)
+3|[Modeling a workflow as a sequence of functions](./activities/modeling_a_workflow/README.md)
+4|[Function signatures as contracts](./activities/functions_as_contracts/README.md)
+5|[Functions in math](./activities/functions_in_math/README.md)
+6|[Avoiding side effects](./activities/avoiding_side_effects/README.md)
 
 ## Capstone task
 
