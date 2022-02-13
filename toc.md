@@ -6,7 +6,7 @@
 * [Basic math & logic for computing](./modules/math_and_logic_for_computing/overview.md)
 * [Mental model of computing: the computer itself](./modules/mental_model_of_computing_the_computer_itself/overview.md)
 * [Mental model of computing: the OS](./modules/mental_model_of_computing_the_operating_system/overview.md)
-* [Functions](./modules/functions/overview.md)
+* [Functions](./modules/functions_1/overview.md)
 * [Modeling problems as data: primitive types and arrays](./modules/modeling_problems_as_data_primitive_types_and_arrays/overview.md)
 * [Modeling problems as data: custom types, structs and classes](./modules/modeling_problems_as_data_custom_types_structs_and_classes/overview.md)
 * [Modeling problems as data: key-value](./modules/modeling_problems_as_data_key-value/overview.md)
