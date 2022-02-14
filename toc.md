@@ -1,7 +1,6 @@
 # Fundamentals
 
 * [Setting the stage](./modules/setting_the_stage/overview.md)
-* [Crash-course/refresher in our initial teaching-languages](./modules/teaching_language_crash_course/overview.md)
 * [Programming as structured problem-solving](./modules/programming_as_problem_solving/overview.md)
 * [Basic math & logic for computing](./modules/math_and_logic_for_computing/overview.md)
 * [Mental model of computing: the computer itself](./modules/mental_model_of_computing_the_computer_itself/overview.md)
@@ -20,13 +19,6 @@
 
 # Practical hands-on
 
-* [Client language crash course](./modules/crash_course_client_language/overview.md)
-* [Server language crash course](./modules/crash_course_server_language/overview.md)
-* [Common](./modules/common/overview.md)
-* [Intermediate JavaScript](./modules/intermediate_javascript/overview.md)
-* [Intermediate Python](./modules/intermediate_python/overview.md)
-* [Intermediate Go](./modules/intermediate_go/overview.md)
-* [SQL crash course](./modules/crash_course_sql/overview.md)
 * [Networking](./modules/networking/overview.md)
 * [Async](./modules/async/overview.md)
 * [OO for UI coding](./modules/oo_for_ui_coding/overview.md)
@@ -35,11 +27,11 @@
 * [Databases: relational](./modules/databases_relational/overview.md)
 * [Integration testing](./modules/integration_testing/overview.md)
 
-
 # Professional, web-scale team development
 * [Functional approach](./modules/functional_approach/overview.md)
 * [Refactoring](./modules/refactoring/overview.md)
 * [Databases: NoSQL](./modules/databases_nosql/overview.md)
+* [Databases: Free-text search](./modules/databases_search_index/overview.md)
 * [Cloud computing](./modules/cloud_computing/overview.md)
 * [Deployment](./modules/distributed_systems_design/overview.md)
 * [Cloud deployment](./modules/cloud_deployment/overview.md)
