@@ -43,6 +43,5 @@ You can find more information **[here for Target Outcomes](./meta/target_outcome
 
 ## Structure
 
-* [overall structure](./structure/overall_structure.md)
 * [modules](./structure/modules.md)
 * [topics](./structure/topics.md)
