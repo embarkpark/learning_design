@@ -8,6 +8,8 @@ We want developers, especially juniors, to gain the foundations and knowledge ne
 
 We don’t want people to think in terms of languages and tools, we want them to think about building features/patterns to solve. In fact, we will link them with reference materials for them when they are building their projects.
 
+You can find more information [here](.meta/target_outcomes.md)
+
 ## What We’re Trying to Avoid
 * We won’t subject people to tutorial hell or just repeat information that's already widely available  
   * There are enough tutorials and resources for people who just want to learn how to code (i.e. Udemy, Bootcamp, School, Edx). We do not want people to get stuck in tutorial hell.
