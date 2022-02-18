@@ -13,7 +13,7 @@ In particular, we strive for:
 1. _backward design_
 2. _flavor of production realism_.
 
-## MBL
+~~## MBL~~
 
-The curriculum is intended to reflect [mastery-based learning](https://en.wikipedia.org/wiki/Mastery_learning), aka mastery learning.
+~~The curriculum is intended to reflect [mastery-based learning](https://en.wikipedia.org/wiki/Mastery_learning), aka mastery learning.~~
 
