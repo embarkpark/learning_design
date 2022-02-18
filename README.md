@@ -33,13 +33,13 @@ You can find more information **[here for Target Outcomes](./meta/target_outcome
   * It should include: `Overview`, `Big Ideas`, `Summary` and `Activities`
   * Don’t worry too much about the activities at the moment, but focus more on the content first.
     * When you do get to making the activities, try to make an activity for each “Big Idea” in the module along with a checklist of “good practices” so that the learner can self-assess themselves.
+* You can view our [ToC](./toc.md) for the list of modules
 
 ---
 # Overview
 
 * [androgogical approach](./meta/androgogical_approach.md)
 * [type of programming targeted](./meta/type_of_programming.md)
-* [outcomes targeted](./meta/target_outcomes.md)
 
 ## Structure
 
