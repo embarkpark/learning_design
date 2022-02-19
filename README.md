@@ -30,7 +30,7 @@ Here is our [narrative](./structure/toc_narrative.md) to understanding the flow 
 
 ## How to Contribute
 * Take a look at [our trello](https://trello.com/invite/b/LJFxr2tb/a4da82cd20a82d989ffff6c7950afef6/embark-park) board and pick out modules you’d like to work on from the “Todo”. If you don’t see the module or activity you want to work on there, please write a new card and add it to the “Doing” as well as assigning yourself the card so everyone can be on the same page about what is being worked on at the moment.
-* When working on a module, follow the flow and structure of the `Functions_1` module as a guide/template for the other modules.
+* When working on a module, follow the flow and structure of the [Functions_1](./modules/functions_1/overview.md) module as a guide/template for the other modules.
   * It should include: `Overview`, `Big Ideas`, `Summary` and `Activities`
   * Don’t worry too much about the activities at the moment, but focus more on the content first.
     * When you do get to making the activities, try to make an activity for each “Big Idea” in the module along with a checklist of “good practices” so that the learner can self-assess themselves.
