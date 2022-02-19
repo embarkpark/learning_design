@@ -10,6 +10,7 @@ We want people to think about building [features](./resources/feature_primitives
 
 You can find more information **[here for Target Outcomes](./meta/target_outcomes.md)**.  
 Here is our [narrative](./structure/toc_narrative.md) to understanding the flow of the course.
+How we want the [type of programming targeted](./meta/type_of_programming.md) to approach our course.
 
 ## What We’re Trying to Avoid
 * We won’t subject people to tutorial hell or just repeat information that's already widely available  
@@ -36,8 +37,3 @@ Here is our [narrative](./structure/toc_narrative.md) to understanding the flow 
   * Don’t worry too much about the activities at the moment, but focus more on the content first.
     * When you do get to making the activities, try to make an activity for each “Big Idea” in the module along with a checklist of “good practices” so that the learner can self-assess themselves.
 * You can view our [ToC](./toc.md) for the list of modules
-
----
-# Overview
-
-* [type of programming targeted](./meta/type_of_programming.md)
