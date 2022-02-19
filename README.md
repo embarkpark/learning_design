@@ -14,10 +14,10 @@ How we want the [type of programming targeted](./meta/type_of_programming.md) to
 
 ## What We’re Trying to Avoid
 * We don't want to just repeat information that's already widely available.  
-  * There are enough tutorials and resources for people who just want to learn how to code (i.e. Udemy, Bootcamp, School, Edx). We do not want people to get stuck in tutorial hell.
+  * There are enough tutorials and resources for people who just want to learn how to code (i.e. Udemy, Bootcamp, School, Edx). We do not want people to get stuck in tutorial hell.  
+* We don't want people to grind LeetCode even though that's the most common advice online.
 * Activities should not be just basic toy examples, like someone buying 50 watermelons, but rather have a more real aspect to it so that the learners can see how it is implemented in a real world situation or on the job.
-* We also want to avoid being a language dependent project. We want to teach them the fundamentals and patterns so that once they learn the basic syntax of things they should be able to understand whatever they’re coding.  
-  * Think leetcode/codewars. They have the same problem, but you can solve them in any language that they have a check for.
+* We also want to avoid being a language dependent project. We want to teach them the fundamentals and patterns so that once they learn the basic syntax of things they should be able to understand whatever they’re coding.
 
 ## How We’re Trying to Structure This Project 
 * We will use an [andragogical approach](./meta/androgogical_approach.md).
