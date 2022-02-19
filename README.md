@@ -8,7 +8,7 @@ We want developers, especially juniors, to gain the foundations and knowledge ne
 
 We don’t want people to think in terms of languages and tools, we want them to think about building features/patterns to solve. In fact, we will link them with reference materials for them when they are building their projects.
 
-You can find more information **[here for Target Outcomes](./meta/target_outcomes.md)**.  
+You can find more information on **Target Outcomes** [here](./meta/target_outcomes.md).  
 Here is our [narrative](./structure/toc_narrative.md) to understanding the flow of the course.
 
 ## What We’re Trying to Avoid
