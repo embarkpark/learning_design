@@ -6,7 +6,7 @@ Junior developers or people looking for their first dev job often lack the skill
 ## Embark Park's Objective
 We want developers, especially juniors, to gain the foundations and knowledge needed to land them a good job. We want people to better understand how their code actually works so that when they run into bugs, they’ll understand how to fix it. We want people to be product minded and problem solvers.  
 
-We don’t want people to think in terms of languages and tools, we want them to think about [feature primitives](./resources/feature_primitives.md). In fact, we will link them with reference materials for them when they are building their projects. After completing this project, devs should feel confident about creating any of these [applications](./resources/app_types.md).
+We want people to think about building [features](./resources/feature_primitives.md), regardless of what specific language they know. In fact, we will link them with reference materials for them when they are building their projects. After completing this project, devs should feel confident about creating any of these [applications](./resources/app_types.md).
 
 You can find more information **[here for Target Outcomes](./meta/target_outcomes.md)**.  
 Here is our [narrative](./structure/toc_narrative.md) to understanding the flow of the course.
