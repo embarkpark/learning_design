@@ -6,17 +6,17 @@ Junior developers or people looking for their first dev job often lack the skill
 ## Embark Park's Objective
 We want developers, especially juniors, to gain the foundations and knowledge needed to land them a good job. We want people to better understand how their code actually works so that when they run into bugs, they’ll understand how to fix it. We want people to be product minded and problem solvers.  
 
-We want people to think about building [features](./resources/feature_primitives.md), regardless of what specific language they know. In fact, we will link them with reference materials for them when they are building their projects. After completing this project, devs should feel confident about creating any of these [applications](./resources/app_types.md).
+We want people to think about building [features](./resources/feature_primitives.md), regardless of what specific language they know. After completing this project, devs should feel confident about creating any of these [applications](./resources/app_types.md).
 
 You can find more information **[here for Target Outcomes](./meta/target_outcomes.md)**.  
 Here is our [narrative](./structure/toc_narrative.md) to understanding the flow of the course.  
-How we want the [type of programming targeted](./meta/type_of_programming.md) to approach our course.
+How we want the [type of programmer targeted](./meta/type_of_programming.md) to approach our course.
 
 ## What We’re Trying to Avoid
-* We don't want to just repeat information that's already widely available.  
+* We don't want to repeat information that's already widely available.  
   * There are enough tutorials and resources for people who just want to learn how to code (i.e. Udemy, Bootcamp, School, Edx). We do not want people to get stuck in tutorial hell.  
 * We don't want people to grind LeetCode even though that's the most common advice online.
-* Activities should not be just basic toy examples, like someone buying 50 watermelons, but rather have a more real aspect to it so that the learners can see how it is implemented in a real world situation or on the job.
+* Activities should not be basic toy examples (like FizzBuzz), but rather have a more real aspect to it so that the learners can see how it is implemented in a real world situation or on the job.
 * We also want to avoid being a language dependent project. We want to teach them the fundamentals and patterns so that once they learn the basic syntax of things they should be able to understand whatever they’re coding.
 
 ## How We’re Trying to Structure This Project 
