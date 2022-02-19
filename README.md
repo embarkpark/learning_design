@@ -18,7 +18,7 @@ Here is our [narrative](./structure/toc_narrative.md) to understanding the flow 
 * We also want to avoid being a language dependent project. We want to teach them the fundamentals and patterns so that once they learn the basic syntax of things they should be able to understand whatever they’re coding.  
   * Think leetcode/codewars. They have the same problem, but you can solve them in any language that they have a check for.
 
-## How We’re Trying to Structure This Project
+## How We’re Trying to Structure This Project [andragogical approach](./meta/androgogical_approach.md)
 * The modules should be standalone modules, meaning that if someone wants to start with the first module, but then wants to jump to the last, they should be able to do so without having to learn all the other modules in between
   * Each module should have a few activities to solidify the `Big Ideas` of the modules, as well as a `Capstone` at the end to combine all the big ideas into one workflow.
     * The activities and Assessment will also have a self assessment checklist that learners can see if they did what the module was trying to teach them
@@ -39,5 +39,4 @@ Here is our [narrative](./structure/toc_narrative.md) to understanding the flow 
 ---
 # Overview
 
-* [androgogical approach](./meta/androgogical_approach.md)
 * [type of programming targeted](./meta/type_of_programming.md)
