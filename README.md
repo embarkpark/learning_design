@@ -9,7 +9,7 @@ We want developers, especially juniors, to gain the foundations and knowledge ne
 We want people to think about building [features](./resources/feature_primitives.md), regardless of what specific language they know. In fact, we will link them with reference materials for them when they are building their projects. After completing this project, devs should feel confident about creating any of these [applications](./resources/app_types.md).
 
 You can find more information **[here for Target Outcomes](./meta/target_outcomes.md)**.  
-Here is our [narrative](./structure/toc_narrative.md) to understanding the flow of the course.
+Here is our [narrative](./structure/toc_narrative.md) to understanding the flow of the course.  
 How we want the [type of programming targeted](./meta/type_of_programming.md) to approach our course.
 
 ## What We’re Trying to Avoid
