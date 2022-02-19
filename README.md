@@ -16,7 +16,7 @@ How we want the [type of programmer targeted](./meta/type_of_programming.md) to 
 * We don't want to repeat information that's already widely available.  
   * There are enough tutorials and resources for people who just want to learn how to code (i.e. Udemy, Bootcamp, School, Edx). We do not want people to get stuck in tutorial hell.  
 * We don't want people to grind LeetCode even though that's the most common advice online.
-* Activities should not be basic toy examples (like FizzBuzz), but rather have a more real aspect to it so that the learners can see how it is implemented in a real world situation or on the job.
+* Activities should not be "White board problems" (like FizzBuzz), but rather have a more real aspect to it so that the learners can see how it is implemented in a real world situation or on the job.
 * We also want to avoid being a language dependent project. We want to teach them the fundamentals and patterns so that once they learn the basic syntax of things they should be able to understand whatever they’re coding.
 
 ## How We’re Trying to Structure This Project 
