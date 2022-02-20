@@ -1,4 +1,4 @@
-Thank you for joining Embark Park as a contributor. Here are a few things you should know about this project, and if you still have questions, don’t hesitate to reach out on [discord](https://discordapp.com/channels/934598444629241916/934598444629241919).  
+Thank you for joining Embark Park as a contributor. Here are a few things you should know about this project, and if you still have questions, don’t hesitate to reach out on [discord](https://discord.gg/VYYTjxKjG6).  
 
 ## Problem Statement
 Junior developers or people looking for their first dev job often lack the skills needed to get the job they want. They think that having years of professional experience will solve their problems, but that’s not always the case. On the other side, hiring managers and companies can’t find enough developers with the skills they need to solve their problems.  
