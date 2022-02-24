@@ -1,24 +1,62 @@
-approach: understand the system.
-read the manual.
-know what's reasonable 
-know some of the fundamentals of your technical field.
-have a high-level view of your system; know the components and their interfaces 
-know your tools.
-approach: make it fail.
-repro steps that start from the beginning.
-*stimulate* the failure (spray a hose on a leaky window).
-approach: quit thinking and look
-instrument the system ahead of time.
-instrument the system when you need it.
-see the failure.
-see the details.
-guess only to focus the search.
-approach: divide and conquer.
-approach: change one thing at a time.
-approach: keep an audit trail.
-approach: check the plug.
+Debugging WILL be the most time consuming process in coding. 
+
+Everyone will do it. Nobody can avoid it. Nobody's code works the first time...
+
+So how do you approach it?
+
+Approach 1: Understand the system.
+1. Read the manual.
+2. Know what's reasonable 
+3. Know some of the fundamentals of your technical field.
+4. Have a high-level view of your system; Know the components and their interfaces.
+5. know your tools.
+Approach 2: Make it fail.
+1. repro steps that start from the beginning.
+2. *stimulate* the failure (spray a hose on a leaky window).
+
+Approach 3: quit thinking and look
+1 instrument the system ahead of time.
+2. instrument the system when you need it.
+3. see the failure.
+4. see the details.
+5. guess only to focus the search.
+
+Approach 4: divide and conquer.
+Approach 5: change one thing at a time.
+Approach 6: keep an audit trail.
+Approach 7: check the plug.
+
 get a fresh view.
 approach: if you didn't fix it, it ain't fixed.
+
+
+In short how do you start the debugging phase. 
+
+Phase 1: Fail it consistantly
+
+If you know what the error is, then it is easy to find out why it is happening. 
+
+How do you fail it?
+
+Well, you obviously know something is wrong that is why you are debugging. Now just see whats unique about this input. 
+Maybe try 5-10 similar inputs and now see which ones are failing. Eventually, a pattern WILL arise. Once you have found the pattern you are practically done. 
+
+Phase 2: Find where it fails.
+
+Take some of your faulty inputs and run them and try finding where your code is not what it should. For some people
+this means use a debugger and follow each variable making sure they are all correct. For others the simpler print statements do the trick. By isolating to the function or lines that are causing your error you now know what needs fixing. 
+
+Note: Make sure you are working with one error. If 3 parts of your code are wrong and you test multiple inputs, some problems go away while others won't. It is important that all your errors are stemming from the same problem. 
+
+Phase 3: Fix your problem.
+
+While it is easier said than done often times approaching it slowly and seeing how data is being mutated is a way 
+to figure our what is the actual problem is the best way to debug your code. 
+
+Still, there are thousands of different reasons that your code could be faulty. 
+
+To help you out here are some tricks to find patterns that help you quickly identify the error. 
+
 
 ## Common errors and how to isolate
 
@@ -27,10 +65,10 @@ approach: if you didn't fix it, it ain't fixed.
 Ways to tell this is the problem:
 Often times these errors will be the same as not catching all instances of a case.
 
-1. Data is falling in a catch-all case. 
-2. Infinite loops or time out errors. 
-3. Data not changing forms resulting in type errors. 
-4. Data not being altered at the end. 
+1. Data is falling in a catch-all case.
+2. Infinite loops or time out errors.
+3. Data not changing forms resulting in type errors.
+4. Data not being altered at the end.
 
 Make sure all cases are accounted for and be careful about having a default catch-all
 case for everything.
@@ -52,10 +90,32 @@ in the correct form that you expect it to be before working with it.
 3. Correct or accurate data
 4. 
 
-### incorrect order of input 
+### Incorrect order of Input 
+
+Ways to tell this is the problem:
+
+1. Type Errors in statically typed languages. 
+2. Data has not been changed from original form.
+
+Make sure all cases are accounted for and be careful about having a default catch-all
+case for everything.
+
 ### incorrect order of results
-### off by one error 
-### incorrect level of nesting 
+### Off by one error 
+These are usually very easy to spot.
+
+Generally there is an edge case that is missed or an index that is not being accounted for.
+If there is a patter of always being off by one in your result that means you are probably missing the first
+or last case. 
+
+### Incorrect level of Nesting 
+
+This usually means in a n dimensional object exactly an (n-1) amount of data is being changed or 
+used. This would mean that if you are working with a 3D array then 
+
+[0, 0, 0]
+[0, 0, ]
+[]
 ### misnamed property 
 ### Incorrect Mathematical Calculation
 
