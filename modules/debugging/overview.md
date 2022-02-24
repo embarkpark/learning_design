@@ -12,7 +12,7 @@ There are many different approaches
 
 The approach of always understanding everything before you debug. While it will be
 easier to debug like this, it is also time consuming and hard to know most aspects of
-what you are doing. 
+what you are doing.
 
 1. Read the manual
 2. Know what's reasonable
@@ -46,16 +46,17 @@ the usually will as well.
 2. Make the parts smaller and smaller until the error is on one small portion.
 3. Use any other approach to fix this error. 
 
-### Approach 5: Change one thing at a time.
+<!-- ### Approach 5: Change one thing at a time.  FEEL LIKE THIS IS SORT OF A BAD DEBUGGING PROCESS ON ITS OWN-->
 
 
 
-<!-- ### Approach 6: Keep an audit trail.
-### Approach 7: Check the plug.
+<!-- ### Approach 6: Keep an audit trail. NOT SURE HOW TO MAKE THIS AN APPROACH AGAIN FEEL LIKE ITS MORE OF A PRACTICE
+FOLLOWING WHAT YOURE DOING CLOSESLY
+### Approach 7: Check the plug. NOT REALLY A PROCESS BUT GIVING IT A BREAK IS MORE OF A PRACTICE
 
 1. Get a fresh view.
 
-### approach: if you didn't fix it, it ain't fixed. -->
+### approach: if you didn't fix it, it ain't fixed.  YEAH BUT HOW DOES IT HELP-->
 
 
 
@@ -90,25 +91,39 @@ To help you out here are some tricks to find patterns that help you quickly iden
 ## Common errors and how to identify them
 
 ### Omitted Case
+Description:
+Ommitted case is when you fail to account for one of the cases that data might come in as. 
+
 
 Ways to tell this is the problem:
-
 1. Data is falling in a catch-all case.
 2. Infinite loops or time out errors.
 3. Data not changing forms resulting in type errors.
 4. Similar data not being altered.
 
+Note:
 Make sure all cases are accounted for and be careful about having a default catch-all
 case for everything.
 
+Note 2: If it blows up in the empty case
+This is often the most overlooked case, but make sure something happens if it's empty
+it will be accounted for. 
+
+Note 3: Incorrectly assuming that there will be no exceptional cases
+There can be anything inputted. Either limit what you are getting inputted OR account 
+for it in your code. Anything that can be accepted as a data point should be accounted for.
+
+
 ### Extraneous Assumption
+Description:
+This is when you assume certain things about the input data that may not be true. It 
+usually means you have to change or account for certain things in your data and maybe even
+*clean* your data to make sure it can and will run properly. 
 
 Ways to tell this is the problem:
-Often times these errors will be the same as not catching all instances of a case.
-
 1. Resulting data or output is not in the right form.  
-2. 
 
+Note:
 Never assume that something not specified in the parameters is given to you. Often
 times you will need to make sure everything passed in to you, or any data you receive is
 in the correct form that you expect it to be before working with it.
@@ -116,63 +131,73 @@ in the correct form that you expect it to be before working with it.
 1. An ordered list
 2. No duplicates of data
 3. Correct or accurate data
-4. 
 
 ### Incorrect order of Input 
+Description:
+The input of the data is not in the order you expected. This could be in many forms
+such as items in a list, order of data in a string, etc.
 
 Ways to tell this is the problem:
-
-1. Type Errors in statically typed languages. 
+1. Type errors usually inform you of this.
 2. Data has not been changed from original form.
 
-Make sure all cases are accounted for and be careful about having a default catch-all
-case for everything.
+Note:
+Make sure you reorder your input to make sure if fits what you are excpecting before
+you proceed with working with it. 
 
-### incorrect order of results
-### Off by one error 
-These are usually very easy to spot.
+<!-- ### Incorrect order of Results ISNT THIS SORT OF AN OBVIOUS ERROR THAT DOES'T REALLY REQUIRE CHANGE-->
 
+### Off by one error
+Description:
+These are usually very easy to spot but you are consistantly off by one in your 
+measure or test in something.
+
+Note:
 Generally there is an edge case that is missed or an index that is not being accounted for.
 If there is a patter of always being off by one in your result that means you are probably missing the first
-or last case. 
+or last case.
 
 ### Incorrect level of Nesting 
+Description:
+This usually means in a nxn object exactly an (n-1)x(n-1) amount of data is being changed or 
+used. 
 
-This usually means in a n dimensional object exactly an (n-1) amount of data is being changed or 
-used. This would mean that if you are working with a 3D array then 
+Ways to tell:
+1. Only a part of your data (usually the first row or column) has been changed.
 
-[0, 0, 0]
-[0, 0, ]
-[]
-### misnamed property 
+
+<!-- ### Misnamed property DONT THINK THIS IS NECESSARY PERSONALLY-->
+
 ### Incorrect Mathematical Calculation
+Description:
+This is a common mistake that can step from many things, but you should always make sure it 
+works for all possible inputs.
 
-typo or reversal in translating a formula
-confusing median for mean
-incorrectly assuming that there will be no exceptional cases
-incorrectly consuming an api response object
-### Blows up in the empty case
+Ways to tell:
+1. Your math doesn't output the right number.
 
+Note: This can be from:
+1. Confusing median for mean. 
+2. Divide by zero.
+3. Error on negative numbers, or 0.
 
+<!-- ### typo or reversal in translating a formula NOT SURE I FOLLOW THIS ONE-->
+
+<!-- ### incorrectly consuming an api response object WON'T YOUR FETCH/GET REQUEST TELL YOU WHAT YOU GET AND 
+STATICALLY TYPED LANGUAGES TELL YOU WHATS WRONG HERE -->
 
 ### Blows up when too much or too large data
-
+Description:
 There is only a finite amount of space that can be handled by functions. This translates to all data structures
 and data types. Knowing how much data your code will have to sift through should slightly change how you are coding it. 
 
+Note:
 Know you data types:
-
 For example:
 Integer - 32 bits
 Range of Possible Numbers: [-2147483648, 2147483648]
 
 If you want to represent anything over these number consider using a float. 
-
-
-### Divide by zero -- Sometimes
-
-Usually the error message will give you very explicit errors for this but 
-this is a common case that you may overlook when doing lots of math in your code. 
 
 # Good Practices to Debug
 
@@ -199,5 +224,6 @@ Read through code and find which case is incorrect just be viewing?
 
  -->
 
-
+# Want to learn more on debugging?
+Learn more here:
 https://www.amazon.com/Debugging-Indispensable-Software-Hardware-Problems/dp/0814471684
