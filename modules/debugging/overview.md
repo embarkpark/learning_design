@@ -73,7 +73,7 @@ Maybe try 5-10 similar inputs and now see which ones are failing. Eventually, a 
 
 ### Phase 2: Find where it fails.
 
-Take some of your faulty inputs and run them and try finding where your code is not what it should. For some people
+Take some of your faulty inputs and run them and try finding where your code is not what it should be. For some people
 this means use a debugger and follow each variable making sure they are all correct. For others the simpler print statements do the trick. By isolating to the function or lines that are causing your error you now know what needs fixing. 
 
 Note: Make sure you are working with one error. If 3 parts of your code are wrong and you test multiple inputs, some problems go away while others won't. It is important that all your errors are stemming from the same problem. 
