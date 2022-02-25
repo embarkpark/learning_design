@@ -225,5 +225,5 @@ Read through code and find which case is incorrect just be viewing?
  -->
 
 # Want to learn more on debugging?
-Learn more here:
-https://www.amazon.com/Debugging-Indispensable-Software-Hardware-Problems/dp/0814471684
+Read more [here](/../..//blob/master/resources/Debugging_The_9_Indispensable_Rules.pdf)  
+Support the author and buy the book [here](https://www.amazon.com/Debugging-Indispensable-Software-Hardware-Problems/dp/0814471684)
