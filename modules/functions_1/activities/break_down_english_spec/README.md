@@ -29,8 +29,7 @@ Option A:
 
 To execute the payment:
 
-1. request a transfer from the bank or from in-app balance
-1. wait for approval
+1. request a transfer from the bank
 1. update the UI
 
 Option B:
