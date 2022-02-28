@@ -55,5 +55,7 @@ To execute the payment:
 
 
 ```
-Which is better, A or B?  Why?
+Which of the two problem breakdowns has a higher delivery risk if used as the basis for implementation, A or B?
+
+Why?
 ```
