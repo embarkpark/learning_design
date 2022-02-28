@@ -21,38 +21,37 @@ This is the problem-solving approach that seasoned programmers employ, and you w
 
 ## Activity
 
-To practice translation of plain-English specs, let's continue looking at the personal payments app example.
+To practice translation of plain-English specs, let's continue looking at the personal payments app example, focusing on the payment execution phase.
 
-For payment execution, which of the following problem decompositions is better?
+Which of the following problem decompositions has a higher risk of an incorrect implementation, if coded as-is?
 
 Option A:
 
 To execute the payment:
 
-1. request a transfer from the bank
-1. update the UI
+1. transfer money from payer to payee
+1. update the UI with new balance
 
 Option B:
 
 To execute the payment:
 
-* begin a transaction
-* check the payer's preferred payment method (in-app balance or bank transfer)
-* if using in-app balance
-    * request drawdown from in-app balance
-        * wait for approval
-        * if approved
-            * update balance to pay
-        * else
-            roll back transaction
-* if a balance remains to be paid...
-    * request a transfer from the account's bank for the balance
-        * wait for approval
-        * if approved
-            * log the success
-        * else
-            * roll back transaction
-
+* begin transaction
+    * check the payer's preferred payment method (in-app balance or bank transfer)
+    * if using in-app balance
+        * request drawdown from in-app balance
+            * if approved
+                * update balance to pay
+            * else
+                * roll back transaction
+    * if amount remaining > 0
+        * request a transfer from the payer's bank for the remainder
+            * if approved
+                * funds go into system escrow account (to fund later cash withdrawal)
+            * if not approved
+                * roll back transaction
+    * update payee's balance by the amount
+* end transaction
 
 ```
 Which of the two problem breakdowns has a higher delivery risk if used as the basis for implementation, A or B?
