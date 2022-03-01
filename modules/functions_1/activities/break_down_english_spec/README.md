@@ -37,24 +37,31 @@ Option B:
 To execute the payment:
 
 * begin transaction
-    * check the payer's preferred payment method (in-app balance or bank transfer)
-    * if using in-app balance
-        * request drawdown from in-app balance
-            * if approved
-                * update balance to pay
-            * else
-                * roll back transaction
-    * if amount remaining > 0
-        * request a transfer from the payer's bank for the remainder
-            * if approved
-                * funds go into system escrow account (to fund later cash withdrawal)
-            * if not approved
-                * roll back transaction
-    * update payee's balance by the amount
+    * check the payer's preferred accounts (in-app wallet, bank transfer, or credit card) for this transaction, in order of withdrawal preference
+    * while amount remaining > 0
+        * get next preferred account
+        * if preferred account is valid
+            * withdraw remainder from current account
+                * if approved
+                    * funds go into system escrow account (to fund later cash withdrawal by payee)
+                    * update amount remaining
+                * if not approved
+                    * roll back transaction
+        * else
+            * roll back transaction
+    * deposit amount to payee in-app wallet
 * end transaction
 
 ```
 Which of the two problem breakdowns has a higher delivery risk if used as the basis for implementation, A or B?
 
 Why?
+```
+
+```
+paymentMethods = payerAccount.preferredPaymentMethods
+while payAmount > 0
+
+
+
 ```
