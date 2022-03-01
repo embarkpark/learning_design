@@ -23,16 +23,16 @@ This is the problem-solving approach that seasoned programmers employ, and you w
 
 To practice translation of plain-English specs, let's continue looking at the personal payments app example, focusing on the payment execution phase.
 
-Which of the following problem decompositions has a higher risk of an incorrect implementation, if coded as-is?
+Which of the following problem decompositions has a higher risk of an incorrect implementation, if coded as-is:
 
-Option A:
+### Option A
 
 To execute the payment:
 
 1. transfer money from payer to payee
 1. update the UI with new balance
 
-Option B:
+### Option B
 
 To execute the payment:
 
@@ -56,12 +56,4 @@ To execute the payment:
 Which of the two problem breakdowns has a higher delivery risk if used as the basis for implementation, A or B?
 
 Why?
-```
-
-```
-paymentMethods = payerAccount.preferredPaymentMethods
-while payAmount > 0
-
-
-
 ```
