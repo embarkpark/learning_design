@@ -8,21 +8,45 @@ Your task is to find and solve all the bugs to get the output to pass all the te
 Can we write a hidden test scheme. 
 
 ```python
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
 def validatePassword(pword):
 
     letterCount = 0
     numCount = 0
+    specialChar = False
+    #Check for uppercase
+    if pword == pword.lower():
+        print('No Uppercase letters')
+        return False
+    #Check for lowercase
+    if pword == pword.upper():
+        print('No Lowercase letters')
+        return False
+    #Check for <
+    if '< ' in pword:
+        print('Invalid  <')
+        return False
+    #Check for >
+    if '>' in pword:
+        print('Invalid  >')
+        return False
+    #Check for length
     if len(pword) < 10:
+        print('Length too small')
         return False
     for letter in pword:
-        #missing case error where it isn't alphabet or numeric but special character
-        if letter.isalpha:
+        if (not letter.isnumeric() and not letter.isdigit()):
+            specialChar = True
+        if letter.isalpha():
             letterCount = letterCount + 1
         else:
             numCount = numCount + 1
-    # less than or equal to faults
-    if letterCount < 5 or numCount < 5:
+    #Check for 5 Letters and Numbers
+    if letterCount < 5 or numCount < 3:
+        print('Not enough letters or numbers')
         return False
+    
 
     return True
 
@@ -42,3 +66,25 @@ def main():
     
 
 main()
+
+```
+Cases that work but shouldn't:
+1. MikeJones<14456!
+
+This has a '<'
+
+2. mikeJ123456
+
+This has no special character.
+
+3. mikeJon1@2we
+
+This reads the '@' as a number but shouldn't.
+
+Cases that don't work but should:
+
+1. mike&Jo123
+
+Errors with too small but is the right length
+
+
