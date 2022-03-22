@@ -12,6 +12,10 @@ all 5 movies are written to a film_ratings.csv file in the folder.
 
 There are 6 errors and this is a difficult project to debug. This will take time and some experience with web scraping will be required. 
 
+
+### This is a modified version of [utkarshbajaj](https://github.com/utkarshbajaj) code made to introduce bugs.
+> Original code from [utkarshbajaj's GitHub](https://github.com/utkarshbajaj/Find-IMDB-Ratings)
+
 ### Solution
 
 ```python
