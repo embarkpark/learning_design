@@ -1,3 +1,14 @@
+### Task
+
+This is an easy debugging tasks. There are errors in logic and in code and you will have to figure out all the bugs in the code. 
+
+
+
+### Solution
+
+```python
+
+
 import time
 from calendar import isleap
 
@@ -17,23 +28,25 @@ def month_days(month, leap_year):
         return 30
     elif month == 2 and leap_year:
         return 29
+    elif month == 2 and (not leap_year):
+        return 28
 
 
 name = input("input your name: ")
 age = input("input your age: ")
 localtime = time.localtime(time.time())
 
-year = age
+year = int(age)
 month = year * 12 + localtime.tm_mon
 day = 0
 
-begin_year = localtime.tm_year - year
-end_year = year
+begin_year = int(localtime.tm_year) - year
+end_year = begin_year + year
 
 # calculate the days
 for y in range(begin_year, end_year):
     if (judge_leap_year(y)):
-        day = day + 365
+        day = day + 366
     else:
         day = day + 365
 
