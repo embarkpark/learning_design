@@ -1,3 +1,20 @@
+### Task
+
+Make sure you install the requirements for this task by running:
+
+```
+pip install -r requirements.txt
+```
+
+Your task is to fix the bugs in this webscraping project. Do not change the variable 'films' and you should expect a solution where
+all 5 movies are written to a film_ratings.csv file in the folder. 
+
+
+There are 6 errors and this is a difficult project to debug. This will take time and some experience with web scraping will be required. 
+
+### Solution
+
+```python
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
@@ -7,23 +24,19 @@ import os
 s = requests.session()  
 
 # List contaiting all the films for which data has to be scraped from IMDB
-films = ['The Godfather', 'Pulp Fiction', 'Scarface', 'Inception', 'Shutter Island', 'Goodwill Hunting' 'Catch me if you Can']
+films = ['The Godfather', 'Pulp Fiction', 'Scarface', 'Inception', 'Shutter Island', 'Goodwill Hunting', 'Catch me if you Can']
 
 # Lists contaiting web scraped data
-
+names = []
+ratings = []
+genres = []
 
 for line in films:
-    names = []
-    ratings = []
-    genres = []
-
     title = line.lower()
 
     query = "+".join(title.split()) 
-    URL = "https://www.imdb.com/search/title/?title=" + "query"
-    
+    URL = "https://www.imdb.com/search/title/?title=" + query
     # print(URL)
-    # print(release)
     try: 
         response = s.get(URL)
 
@@ -39,10 +52,10 @@ for line in films:
         score = rating_bar[0].find_all("div", class_="inline-block ratings-imdb-rating")
 
         rating = score[0]['data-value']
-        genre = genre[0].find_all("span", class_="genre_").text
+        genre = genre[0].find_all("span", class_="genre")[0].text
 
         names.append(line)
-        ratings.append(rating_bar)
+        ratings.append(rating)
         genres.append(genre)
 
 
