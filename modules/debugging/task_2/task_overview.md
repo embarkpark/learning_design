@@ -1,35 +1,13 @@
 ## Task: Debugging code #2
-  
-### Task:
+
 This will focus on different debugging procedures. 
 
 Let's say your company is trying to implement a "password validator." 
 
-Your task is to find and solve all the bugs to get the output to pass all the tests. You can manually run these tests to verify your solution. 
+Your task is to find and solve all the bugs to get the output to pass all the tests.
+Can we write a hidden test scheme. 
 
-### Cases that work but shouldn't:
-1. MikeJones<14456!
-
-This has a '<'
-
-2. mikeJ123456
-
-This has no special character.
-
-3. mikeJon1@2we
-
-This reads the '@' as a number but shouldn't.
-
-### Cases that don't work but should:
-
-1. mike&Jo123
-
-Errors with too small but is the right length
-
-
-## Solution
-
-
+### Solution
 
 ```python
 # Online Python compiler (interpreter) to run Python online.
@@ -48,24 +26,26 @@ def validatePassword(pword):
         print('No Lowercase letters')
         return False
     #Check for <
-    if '< ' in pword:
-        print('Invalid  <')
+    if '<' in pword:
+        print('Invalid <')
         return False
     #Check for >
     if '>' in pword:
-        print('Invalid  >')
+        print('Invalid >')
         return False
     #Check for length
     if len(pword) < 10:
         print('Length too small')
         return False
     for letter in pword:
-        if (not letter.isnumeric() and not letter.isdigit()):
+        if (not letter.isalpha() and not letter.isdigit()):
             specialChar = True
         if letter.isalpha():
             letterCount = letterCount + 1
-        else:
+        elif letter.isdigit():
             numCount = numCount + 1
+    if specialChar is False:
+        return False
     #Check for 5 Letters and Numbers
     if letterCount < 5 or numCount < 3:
         print('Not enough letters or numbers')
@@ -86,8 +66,5 @@ def main():
             print(validatePassword(password))
     print('Finished Running')
     
-        
-    
-
 main()
-
+    

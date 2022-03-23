@@ -1,10 +1,14 @@
+## Task: Debugging Code #5 (Easy)
+
 ### Task
-
 This is an easy debugging tasks. There are errors in logic and in code and you will have to figure out all the bugs in the code. 
+Once you are completed compare your code to the solution below to verify your answer. 
+
+### This is a modified version of [Xlgd's](https://github.com/xlgd) code made to introduce bugs.
+> Original code from [Xlgd's GitHub](https://github.com/Xlgd/python-mini-projects/tree/master/projects/Calculate%20age)
 
 
-
-### Solution
+## Solution
 
 ```python
 

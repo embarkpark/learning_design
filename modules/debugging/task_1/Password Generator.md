@@ -1,5 +1,6 @@
-## Task: Debugging code  
+## Task: Debugging code #1
   
+### Task:
 Let's say your company is trying to implement a "password generator" or "suggested password", similar to [LastPass](https://www.lastpass.com/features/password-generator). 
 
 Your task is to find and solve all the bugs to get the output looking like this.  
@@ -7,6 +8,8 @@ Your task is to find and solve all the bugs to get the output looking like this.
 
 ### This is a modified version of [abhishek305's](https://github.com/abhishek305) code made to introduce bugs.
 > Original code from [abhishek305's GitHub](https://github.com/abhishek305/Password-Generator-in-python/blob/master/Password%20Generator.py)
+
+## Solution
 
 ```python
 import random

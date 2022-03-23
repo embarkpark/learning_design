@@ -1,4 +1,4 @@
-### Task
+## Task: Debugging Code #3 (Difficult)
 
 Make sure you install the requirements for this task by running:
 
@@ -6,6 +6,7 @@ Make sure you install the requirements for this task by running:
 pip install -r requirements.txt
 ```
 
+### Task
 Your task is to fix the bugs in this webscraping project. Do not change the variable 'films' and you should expect a solution where
 all 5 movies are written to a film_ratings.csv file in the folder. 
 
@@ -16,7 +17,7 @@ There are 6 errors and this is a difficult project to debug. This will take time
 ### This is a modified version of [utkarshbajaj](https://github.com/utkarshbajaj) code made to introduce bugs.
 > Original code from [utkarshbajaj's GitHub](https://github.com/utkarshbajaj/Find-IMDB-Ratings)
 
-### Solution
+## Solution
 
 ```python
 from bs4 import BeautifulSoup
