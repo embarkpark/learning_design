@@ -46,7 +46,9 @@ the usually will as well.
 2. Make the parts smaller and smaller until the error is on one small portion.
 3. Use any other approach to fix this error. 
 
-<!-- ### Approach 5: Change one thing at a time.  FEEL LIKE THIS IS SORT OF A BAD DEBUGGING PROCESS ON ITS OWN-->
+### Approach 5: Change one thing at a time. 
+
+The premise of this is very simple. Keep changing things until you realize 
 
 
 
@@ -145,7 +147,19 @@ Note:
 Make sure you reorder your input to make sure if fits what you are excpecting before
 you proceed with working with it. 
 
-<!-- ### Incorrect order of Results ISNT THIS SORT OF AN OBVIOUS ERROR THAT DOES'T REALLY REQUIRE CHANGE-->
+### Incorrect order of Results 
+Description:
+This usually means your output isn't what is expected in terms of ordering. 
+Expecting: Sorted Ascending Array
+Actual: [1, 2, 6, 34, 26, 10]
+
+Ways to tell this is the problem:
+1. Other functions break despite this function appearing to be correct. 
+2. Only partially running your outputted data and either erroring or not running the rest properly. 
+
+Note: Usually a simple printing of your output should show you if it is in the order it wants. Sometimes it is even worth 
+having a helper function do the sorting for you. 
+
 
 ### Off by one error
 Description:
@@ -157,16 +171,43 @@ Generally there is an edge case that is missed or an index that is not being acc
 If there is a patter of always being off by one in your result that means you are probably missing the first
 or last case.
 
-### Incorrect level of Nesting 
+
+### Nesting Logic 
 Description:
-This usually means in a nxn object exactly an (n-1)x(n-1) amount of data is being changed or 
-used. 
+This can mean a bunch of things but always relates to your code running a loop or conditional at a 
+point that it shouldn't be. You have to be aware of what can be changed where you are in code.  
+
+
+Example (With Conditionals):
+```python
+if isAnimal is False:
+    if animal == "Dog":
+        
+```
+Obviously at this point in the code you shouldn't be checking if animal is Dog since you know its
+not an animal. 
 
 Ways to tell:
-1. Only a part of your data (usually the first row or column) has been changed.
+1. (In Loops) Only a part of your data (usually the first row or column) has been changed.
+2. (In Conditionals) One part of your conditional always returns either false or true, or it never gets reached. 
+3. (Across Functions) When you are calling helper functions unneccessarily or not at all. 
 
 
-<!-- ### Misnamed property DONT THINK THIS IS NECESSARY PERSONALLY-->
+### Misnamed Property
+Description: It is a simple but overlooked error. You're searching for something and it doesn't seem to be there. 
+
+This can be in a variety of ways: Accessing database, JSON request, object properties, etc.
+
+Almost always you should print out your data and make sure you are getting something that makes sense. 
+Before trying to work with that data more, if you know what you get and if everything is working until a certain point
+you should print your data, ensure it is correct, and then continue from there. 
+
+Ways to tell: 
+1. You are working with no data.
+2. You are working with incorrect data. 
+3. In certain languaged failed request of some sort. 
+
+
 
 ### Incorrect Mathematical Calculation
 Description:
@@ -181,7 +222,17 @@ Note: This can be from:
 2. Divide by zero.
 3. Error on negative numbers, or 0.
 
-<!-- ### typo or reversal in translating a formula NOT SURE I FOLLOW THIS ONE-->
+### Typo or Reversal in translating a formula 
+Description:
+This is when you are using a formula given to you and trying to rewrite it or change it slightly. 
+
+Ways to tell:
+1. Output wrong or unit tests are failing. 
+
+Note: Pretty much just be careful here. Look through your formula slowly and take a few inputs and slowly 
+work through them while observing the output. 
+
+
 
 <!-- ### incorrectly consuming an api response object WON'T YOUR FETCH/GET REQUEST TELL YOU WHAT YOU GET AND 
 STATICALLY TYPED LANGUAGES TELL YOU WHATS WRONG HERE -->
