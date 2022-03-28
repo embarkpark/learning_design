@@ -64,7 +64,7 @@ FOLLOWING WHAT YOURE DOING CLOSESLY
 
 ## In larger amounts of code how do you start the debugging phase?
 
-### Phase 1: Fail it consistantly
+### Phase 1: Fail it consistently
 
 If you know what the error is, then it is easy to find out why it is happening. 
 
