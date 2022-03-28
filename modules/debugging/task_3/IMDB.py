@@ -6,10 +6,10 @@ import os
 # Setting up session
 s = requests.session()  
 
-# List contaiting all the films for which data has to be scraped from IMDB
+# List containing all the films for which data has to be scraped from IMDB
 films = ['The Godfather', 'Pulp Fiction', 'Scarface', 'Inception', 'Shutter Island', 'Goodwill Hunting' 'Catch me if you Can']
 
-# Lists contaiting web scraped data
+# Lists containing web scraped data
 
 
 for line in films:
@@ -27,7 +27,7 @@ for line in films:
     try: 
         response = s.get(URL)
 
-        #getting contect from IMDB Website
+        #getting content from IMDB Website
         content = response.content
 
 
