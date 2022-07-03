@@ -36,33 +36,35 @@ Tech stacks|[link](module_outlines/foundations/tech_stacks.md)|TODO
 
 ## Client - native apps
 
-* Dart basics
-* Intro to Flutter
-* Widgets
-* Widget tree
-* Tooling
-* Project assets
-* Layouts
-* Material components
-* Custom widgets
-* State management 1
-* State management 2
-* Routing 1
-* Routing 2
-* Validations - Regex
-* Input forms
-* Input forms
-* Async 1
-* Async 2
-* Persistent storage
-* Networking 1
-* Networking 2
-* State management 2
-* State management 3
-* State management 4
-* Networking 2
-* Animations
-* Tools for deployment
+Module title|Outline|Full module
+---|---|---
+Dart basics|[link](module_outlines/client/dart_intro.md)|TODO
+Intro to Flutter|[link](module_outlines/client/first_taste_of_flutter.md)|TODO
+Widgets|[link](module_outlines/client/intro_to_widgets.md)|TODO
+Widget tree|[link](module_outlines/client/widget_tree.md)|TODO
+Tooling|[link](module_outlines/client/tooling.md)|TODO
+Project assets|[link](module_outlines/client/project_assets.md)|TODO
+Layouts|[link](module_outlines/client/layouts.md)|TODO
+Material components|[link](module_outlines/client/material_design.md)|TODO
+Custom widgets|[link](module_outlines/client/custom_widgets.md)|TODO
+State management 1|[link](module_outlines/client/state_management_1.md)|TODO
+State management 2|[link](module_outlines/client/state_management_2.md)|TODO
+Routing 1|[link](module_outlines/client/routing_1.md)|TODO
+Routing 2|[link](module_outlines/client/routing_2.md)|TODO
+Validations - Regex|[link](module_outlines/client/validations_regex.md)|TODO
+Input forms|[link](module_outlines/client/input_forms_1.md)|TODO
+Input forms|[link](module_outlines/client/input_forms_2.md)|TODO
+Async 1|[link](module_outlines/client/async_1.md)|TODO
+Async 2|[link](module_outlines/client/async_2.md)|TODO
+Persistent storage|[link](module_outlines/client/persistent_storage.md)|TODO
+Networking 1|[link](module_outlines/client/networking_1.md)|TODO
+Networking 2|[link](module_outlines/client/networking_2.md)|TODO
+State management 3|[link](module_outlines/client/state_management_3.md)|TODO
+State management 4|[link](module_outlines/client/state_management_4.md)|TODO
+State management 5|[link](module_outlines/client/state_management_5.md)|TODO
+Networking 3|[link](module_outlines/client/networking_3.md)|TODO
+Animations|[link](module_outlines/client/animations.md)|TODO
+Tools for deployment|[link](module_outlines/client/XXX)|TODO
 
 ## Server
 
