@@ -19,18 +19,12 @@ _Writing unit tests for existing code._
 * In this module we will focus on functions as units.
 
 ### How-to
-* Consider starting with tests. That way your code structure is build upon concepts what needs to be done not how. It gives you nice indicator if you finished implementing your feature.
-* Do not test parts of the frameworks or libraries/packages. If you do not trust them to work should you be using them?
-* If you have trouble testing your code there high chance that architecture of your code is not right.
-* Identify crucial parts of the code that need testing. Start with them.
-* Each added test increase cost of future changes - tests needs to be updated. Be sure that tests that you add are not just to increase code coverage.
-* Test should not only include happy paths but also other cases where things do not go as planed.
-* Select test data that have regular patterns.
-* Nondeterministic tests are worse then no tests.
+
+{TODO: small examples of real unit tests}
 
 ### Let's practice
 
-Goals:
-* Building test based on specification
-* Showing that making tests can help you to find bugs
+Review goals:
+
+* You can write small unit tests like the examples given.
 
