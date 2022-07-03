@@ -1,4 +1,4 @@
-# Testing 2 / Clean code 3
+# Testing 2
 _Reorganizing code to make it more testable._
 
 ### Unit tests are another client of the code
@@ -14,14 +14,18 @@ _Reorganizing code to make it more testable._
     * Tight coupling increases the risk of breakage when one component changes.
         * This reduces maintainability.
 
-### Let's practice
-
-{exercises go here}
-
-
 ### "Testable code is cleaner code."
 * Especially as systems get larger, loosely coupled, well-tested code becomes extremely important for maintainability.
 
 ### How-to
-{insert details of reorganizing to make code more testable}
+{TODO: small examples reorganizing to make code more testable}
+
+### Let's practice
+
+Review goals:
+
+* Reorganize a small amount of code to make it more testable, as shown in examples.
+* Add tests of the now-testable code.
+
+
 
