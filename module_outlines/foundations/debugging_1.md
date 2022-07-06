@@ -20,8 +20,9 @@ _Introducing a recipe for debugging code._
     * The test case should now pass.
 1. Proceed scientifically - formulate and test hypotheses.
 1. Don't just look for quick workarounds, aim to understand what is happening.
-    * "Rubber duck" explanations help you organize your thoughts.
+    * [Rubber duck](https://github.com/embarkpark/learning_design/blob/master/meta/glossary.md#rubber-duck-debugging) explanations help you organize your thoughts.
     * Believe in logical reasons, not magic -- logically connect cause and effect.
+      * See [Cargo Cult](https://github.com/embarkpark/learning_design/blob/master/meta/glossary.md#cargo-cult-mentality) 
 
 
 ### Let's practice
